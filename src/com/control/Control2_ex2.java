@@ -27,5 +27,6 @@ public class Control2_ex2 {
 			
 			//ch = (char)(ch+num);
 			
+			//Home Edition
 		}
 }
