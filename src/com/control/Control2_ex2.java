@@ -16,17 +16,32 @@ public class Control2_ex2 {
 			// num : 1 출력c
 			// num : 2 출력d
 			
-			if((int)ch <= 122 && (int)ch >= 97) {
+			/*if((int)ch <= 122 && (int)ch >= 97) {
 				ch -= 26;
 			} else if(97 <= (int)ch && (int)ch <= 122) {
 				ch = (char)(ch + num);
 			}
 			
 			ch += num;
+			System.out.println(ch); */
+			
+			//소문자가 범위를 벗어났을 때
+			int result = ch + num;
+			
+			if(result > 122) {
+				result = result - 122; //2
+				result += 96;
+				//result = 'a' + result - 1;
+			}
+			
+			//대문자가 범위를 벗어났을 때
+			if(result > 'Z' && result < 'a') {
+				result = result - 'Z' - 1; //num
+				result += 'A';
+			}
+			ch = (char)result;
+			// num : 2 ch : z
 			System.out.println(ch);
 			
-			//ch = (char)(ch+num);
-			
-			//Home Edition
 		}
 }
