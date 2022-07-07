@@ -16,10 +16,10 @@ public class Control2_ex2 {
 			// num : 1 출력c
 			// num : 2 출력d
 			
-			if((int)ch >= 122) {
+			if((int)ch <= 122 && (int)ch >= 97) {
 				ch -= 26;
 			} else if(97 <= (int)ch && (int)ch <= 122) {
-				ch -= 26;
+				ch = (char)(ch + num);
 			}
 			
 			ch += num;

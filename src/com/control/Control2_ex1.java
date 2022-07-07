@@ -21,6 +21,8 @@ public class Control2_ex1 {
 			money -= money * 0.033;
 		}
 		System.out.println("실수령액은" + money + "원 입니다");
+		
+		//Study Edition
 	}
 
 }
