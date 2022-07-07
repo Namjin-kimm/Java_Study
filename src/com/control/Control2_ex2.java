@@ -43,7 +43,6 @@ public class Control2_ex2 {
 			// num : 2 ch : z
 			System.out.println(ch);
 			
-			//ㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹ
 			
 		}
 }
