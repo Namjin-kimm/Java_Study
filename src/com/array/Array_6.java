@@ -10,7 +10,7 @@ public class Array_6 {
 		for(int i = 0; i < copy.length; i++) {
 			copy[i] = nums[i];
 		}
-		
+		//copy = {1, 2}
 		nums = copy; //얕은 복사
 		
 		System.out.println(nums.length);
